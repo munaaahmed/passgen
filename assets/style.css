@@ -7,11 +7,11 @@
 .container{
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: darkblue;
+    background-color: cornsilk;
     padding: 20px;
     width: 100%;
     height: 450px;
-    box-shadow: 5px 5px 5px deepskyblue;
+    box-shadow: 5px 5px 5px cornsilk;
 }
 #display{
     width: 100%;
@@ -52,7 +52,7 @@
     letter-spacing: 1px;
     line-height: 15px;
     border-radius: 30px;
-    background-color: darkgray;
+    background-color: white;
     transition: all 0.2s ease 0s;
     width: 200px;
     height: 50px;
@@ -61,7 +61,7 @@
 }
  
 body {
-    background-color: darkblue;
+    background-color: cornsilk;
 }
 #length{
     display: inline-block;
