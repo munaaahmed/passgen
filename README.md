@@ -7,5 +7,6 @@ This project is a password generator. It can create passwords between 6-100 word
 https://github.com/munaaahmed/passgen/blob/master/images/Password%20Generator%20Image.png
 
 **Link to Deployed Application**
+
 https://munaaahmed.github.io/passgen/
 
