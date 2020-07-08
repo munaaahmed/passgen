@@ -9,9 +9,9 @@ function generate(){
     var lowercaseInput= document.getElementById("lowercase");
    
     var uppercaseInput= document.getElementById("uppercase");
-    var punctuationInput= doucment.getElementById("punctuation");
+    var punctuationInput= document.getElementById("punctuation");
     var numbersInput= document.getElementById("numbers");
-    var passlength= doucment.getElementById("text").value;
+    var passlength= document.getElementById("text").value;
 
     var userpassword= "";
     var passwordCharSet= "";
@@ -37,7 +37,7 @@ function generate(){
     document.getElementById("length").innerHTML = ("Length(8-128): ");
     document.getElementById("text").oninput = function(){
         if (document.getElementById("text").value >7){
-            doucment.getElementById("length").innerHTML = "length:" +document.getElementById("text").value;
+            document.getElementById("length").innerHTML = "length:" +document.getElementById("text").value;
 }
 else{
     document.getElementById("length").innerHTML="Length: 8";
@@ -45,6 +45,6 @@ else{
     }
 }
 function copyPassword(){
-    doucment.getElementById("display").select();
+    document.getElementById("display").select();
     document.execCommand("copy");
 }
