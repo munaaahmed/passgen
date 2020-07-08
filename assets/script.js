@@ -34,13 +34,13 @@ function generate(){
     }
 
     document.getElementById("display").value= userpassword;
-    document.getElementById("length").innerHTML = ("Length(8-128): ");
+    document.getElementById("length").innerHTML = ("Length(6-100): ");
     document.getElementById("text").oninput = function(){
         if (document.getElementById("text").value >7){
             document.getElementById("length").innerHTML = "length:" +document.getElementById("text").value;
 }
 else{
-    document.getElementById("length").innerHTML="Length: 8";
+    document.getElementById("length").innerHTML="Length: 6";
 }
     }
 }
